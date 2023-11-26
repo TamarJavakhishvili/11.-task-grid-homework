@@ -38,6 +38,10 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     position: relative;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: dvh;
 }
 
 .graduate-pic {
@@ -177,11 +181,12 @@ body {
         /* height: max-content; */
       
         /* height: max-content; */
-        
+
             height: 300vh;
-            
-    
-    }
+
+            /* height: dvh; */
+           
+        }
 
     .small-text {
         margin-top: 20px;
@@ -192,6 +197,7 @@ body {
     .items {
         overflow: hidden;
         text-overflow: ellipsis;
+        /* height: dvh; */
 
       }
 
